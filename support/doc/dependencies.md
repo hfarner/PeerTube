@@ -37,14 +37,13 @@
 ```
 sudo apt update
 sudo apt install nginx ffmpeg postgresql postgresql-contrib openssl g++ make redis-server git python-dev
-ffmpeg -version # Should be >= 3.x
+ffmpeg -version # Should be >= 4.x
 g++ -v # Should be >= 5.x
 ```
 
-If you still have a 2.x version of FFmpeg on Ubuntu:
+If you still have a 2.x 3.x version of FFmpeg on Ubuntu:
 
-```
-sudo add-apt-repository ppa:jonathonf/ffmpeg-3
+sudo add-apt-repository ppa:savoury1/ffmpeg4
 sudo apt-get update
 sudo apt install ffmpeg
 ```
